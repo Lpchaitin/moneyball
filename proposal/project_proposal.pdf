@@ -1,0 +1,56 @@
+Project Name
+Moneyball ROI Analysis: Evaluating Team and Player Value in Major League Baseball
+
+Project Description
+This project aims to analyze Major League Baseball (MLB) data to evaluate return on investment (ROI) at both the team and individual player levels. Inspired by the Moneyball methodology, the goal is to calculate how efficiently teams convert payroll into wins, and how players contribute relative to their salaries. The insights generated will assist sports analysts and general managers in making data-driven decisions about player acquisitions and team-building strategies.
+
+Tech Stack
+SQL (PostgreSQL on AWS RDS)
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+Tableau or Power BI for visualization
+
+Recommended Certifications
+SQL for Data Science (Coursera)
+Python for Data Analysis (DataCamp)
+Tableau Desktop Specialist
+
+Objectives
+Quantify team ROI by calculating payroll per win across MLB franchises.
+Calculate individual player ROI by comparing salaries to performance metrics (e.g., WAR, batting stats).
+Identify undervalued and overpaid players to support strategic roster decisions.
+Deliver insights through clear, impactful data visualizations.
+
+Timeline
+Day 1: Extract and clean MLB salary and performance data using SQL and Python.
+Day 2: Calculate ROI metrics and perform comparative analysis.
+Day 3: Build interactive dashboards to visualize findings and support recommendations.
+
+Evaluation Criteria
+Success will be assessed based on:
+Accuracy of ROI calculations and derived metrics.
+Business relevance of the insights provided.
+Quality and clarity of visualizations and storytelling.
+
+Steps to Completion
+Extract team and player salary data (web scrape or Kaggle dataset).
+Extract player and team performance data from an API (e.g., SportsDataIO or MLB API).
+Clean, merge, and store datasets in an AWS RDS PostgreSQL instance.
+Calculate team and player ROI metrics.
+Conduct descriptive and diagnostic SQL analysis.
+Visualize trends and outliers using Tableau or Power BI dashboards.
+
+Challenges and Mitigation Strategies
+Data Integration: Merging performance and payroll data from different formats.
+Mitigation: Design consistent schemas and use SQL joins effectively.
+Data Gaps: Incomplete salary or performance records.
+Mitigation: Use available proxies or limit analysis to complete entries.
+Visualization Interpretation: Ensuring stakeholders can act on visual outputs.
+Mitigation: Use filters, tooltips, and story dashboards in Tableau for clarity.
+
+GitHub README Structure:
+Project Overview
+Data Sources and Preprocessing
+SQL Analysis and Insights
+Visualizations and Dashboards
+Key Findings and Recommendations
+Future Work and Possible Extensions
