@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+*.env
+AWS_RDS.txt
+*.csv
+*.db
+*.log
+.DS_Store
+.vscode/
+.idea/
