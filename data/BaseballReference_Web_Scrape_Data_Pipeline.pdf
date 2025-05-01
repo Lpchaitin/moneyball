@@ -1,0 +1,11 @@
+[BaseballReference.com]
+    ↓
+[MLBWeb_Web_Scrape_Extract_Load_Raw.ipynb]
+    - Scrape data
+    - Clean data
+    ↓
+[pandas DataFrame]
+    ↓
+[sql_project.mlb_team_records (AWS RDS PostgreSQL)]
+    ↓
+[SQL Analysis Notebook]

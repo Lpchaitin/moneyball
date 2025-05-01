@@ -1,0 +1,11 @@
+[Kaggle API] 
+    ↓
+[MLBPay_API_Extract_Load_Raw.ipynb]
+    - Download CSV
+    - Clean data
+    ↓
+[pandas DataFrame]
+    ↓
+[sql_project.mlb_team_payrolls (AWS RDS PostgreSQL)]
+    ↓
+[SQL Analysis Notebook]
