@@ -10,3 +10,8 @@ AWS_RDS.txt
 .DS_Store
 .vscode/
 .idea/
+
+# Prevent accidents
+profiles.yml
+AWS_RDS.txt
+kaggle.json

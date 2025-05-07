@@ -1,0 +1,12 @@
+name: 'moneyball_dbt'
+version: '1.0'
+config-version: 2
+
+profile: 'moneyball_profile'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+models:
+  moneyball_dbt:
+    +materialized: view

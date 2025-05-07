@@ -1,0 +1,5 @@
+Host: isba-dev-02.cs9qggeyc1z7.us-east-1.rds.amazonaws.com
+Username: postgres
+Password: isba_4715
+schema: basket_craft
+port: 5432
