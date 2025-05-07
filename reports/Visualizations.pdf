@@ -1,0 +1,32 @@
+For this project, I created the following visualizations in Looker Studio to analyze MLB team performance, 
+payroll trends, and return on investment (ROI):
+
+Total Wins vs. Payroll (Scatterplot)
+Displays the relationship between team payroll and total wins across seasons, 
+identifying whether higher spending correlates with better performance.
+
+Summary of Key Statistics (Table with Heat Map)
+Presents wins, losses, win percentage, total payroll, 
+and payroll per win by team and season. The heat map highlights significant variations in each metric.
+
+Average Payroll Per Win by Year (Line Chart)
+Tracks how much teams spent per win over time, 
+revealing trends in spending efficiency or inefficiency across seasons.
+
+Average Team Payroll (Bar Chart)
+Compares the average payroll by team over the dataset period, 
+spotlighting consistently high or low spending franchises.
+
+Average Wins by Team (Bar Chart)
+Shows the average number of wins per team, 
+offering insights into long-term team performance regardless of payroll.
+
+Most Wins and Losses by a Team in a Season (Table)
+Lists the highest and lowest single-season win and loss records, 
+identifying outlier team performances.
+
+Total Losses by Team (Treemap)
+Visualizes the cumulative losses by team across all seasons, 
+with size and color indicating total losses, highlighting consistently struggling teams.
+
+Dashboard: [https://lookerstudio.google.com/reporting/3a360374-8f25-4fe0-b92f-341612d21d25]
