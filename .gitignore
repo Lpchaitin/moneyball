@@ -23,3 +23,8 @@ profiles.yml
 # dbt-specific folders
 dbt_packages/
 target/
+
+# Prevent accidents
+profiles.yml
+AWS_RDS.txt
+kaggle.json
