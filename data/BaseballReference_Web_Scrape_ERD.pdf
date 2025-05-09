@@ -1,7 +1,0 @@
-Entity: TeamSeason
-    Team: string    
-    Wins: int
-    Losses: int
-    win_percentage: float
-    gb: string
-    year: int
