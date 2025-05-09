@@ -1,8 +1,0 @@
-Entity: PayrollData
-  Team: string
-  Year: int
-  Payroll: float
-  Luxury_Tax_Payroll: float
-  Average_Salary: float
-  Rank: int
-
