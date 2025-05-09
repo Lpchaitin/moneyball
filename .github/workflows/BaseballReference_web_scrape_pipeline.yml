@@ -21,6 +21,14 @@ jobs:
           pip install -r requirements.txt
           pip install papermill
 
+      - name: Load environment variables
+        run: |
+          echo "DB_HOST=${{ secrets.DB_HOST }}" >> .env
+          echo "DB_PORT=${{ secrets.DB_PORT }}" >> .env
+          echo "DB_NAME=${{ secrets.DB_NAME }}" >> .env
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASS=${{ secrets.DB_PASS }}" >> .env
+
       - name: Run Baseball Reference Web Scrape Notebook
         run: |
-          papermill notebooks/MLBWeb_Web_Scrape_Extract_Load_Raw.ipynb notebooks/MLBWeb_Web_Scrape_Extract_Load_Raw_output.ipynb
+          papermill notebooks/BaseballReference_Web_Scrape_Extract_Load_Raw.ipynb notebooks/BaseballReference_Web_Scrape_Extract_Load_Raw_output.ipynb

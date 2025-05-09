@@ -1,17 +1,25 @@
+# Python cache & environment
 __pycache__/
 *.py[cod]
 *.ipynb_checkpoints
 .env
 *.env
-AWS_RDS.txt
-*.csv
-*.db
-*.log
-.DS_Store
-.vscode/
-.idea/
 
-# Prevent accidents
-profiles.yml
+# Sensitive files
 AWS_RDS.txt
 kaggle.json
+profiles.yml
+
+# Project artifacts
+*.csv         # OPTIONAL: remove if you want to track CSVs in GitHub (like in /seeds/)
+*.db
+*.log
+
+# IDE folders
+.vscode/
+.idea/
+.DS_Store
+
+# dbt-specific folders
+dbt_packages/
+target/
