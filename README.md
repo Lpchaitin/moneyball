@@ -54,4 +54,4 @@ It directly connects through:
 [🔍 View Interactive Looker Dashboard](https://lookerstudio.google.com/reporting/3a360374-8f25-4fe0-b92f-341612d21d25/page/p_x0z6ek58rd)
 
 ---
-> *This project was created as part of the SQL Portfolio Capstone to demonstrate data engineering and analytics skills in a real-world scenario.*
+> *This project was created as part of the SQL Portfolio to demonstrate data engineering and analytics skills in a real-world scenario.*
